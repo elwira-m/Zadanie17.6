@@ -1,0 +1,13 @@
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		title Logowanie
+	body
+		form(action='http://localhost:3000/views', method='GET')
+			p
+				|Your nickname: 
+				input(type='text', name='nickname')
+			p
+				|Password: 
+				input(type='text', name='password')
+			input(type='submit', value='Submit')
